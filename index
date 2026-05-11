@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>الحرب العالمية الثانية</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Tahoma;
+    background:#f4f4f4;
+    line-height:1.9;
+}
+
+/* الهيدر */
+
+header{
+    background-image:url('https://images.unsplash.com/photo-1545239351-1141bd82e8a6');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:55px;
+    margin:0;
+    text-shadow:2px 2px 5px black;
+}
+
+header p{
+    font-size:22px;
+    text-shadow:1px 1px 4px black;
+}
+
+/* القائمة */
+
+nav{
+    background:#1d3557;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#ffd166;
+}
+
+/* الأقسام */
+
+section{
+    background:white;
+    margin:25px;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 0 12px rgba(0,0,0,0.1);
+}
+
+/* العناوين */
+
+h2{
+    color:#1d3557;
+}
+
+/* الصور */
+
+img{
+    width:100%;
+    border-radius:15px;
+    margin-top:15px;
+}
+
+/* الجدول */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+table, th, td{
+    border:1px solid #ccc;
+}
+
+th{
+    background:#1d3557;
+    color:white;
+}
+
+th, td{
+    padding:14px;
+    text-align:center;
+}
+
+/* الفيديو */
+
+.video{
+    text-align:center;
+    margin-top:20px;
+}
+
+iframe{
+    width:100%;
+    max-width:850px;
+    height:450px;
+    border-radius:15px;
+}
+
+/* الروابط */
+
+a{
+    color:#1d3557;
+    font-weight:bold;
+}
+
+/* الفوتر */
+
+footer{
+    background:#1d3557;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
+
+/* الجوال */
+
+@media(max-width:768px){
+
+header h1{
+    font-size:35px;
+}
+
+iframe{
+    height:250px;
+}
+
+nav a{
+    display:block;
+    margin:10px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>الحرب العالمية الثانية</h1>
+
+    <p>
+        تقرير شامل ومختصر عن الحرب العالمية الثانية وأحداثها ونهايتها
+    </p>
+
+</header>
+
+<nav>
+
+    <a href="#about">نبذة</a>
+    <a href="#events">الأحداث</a>
+    <a href="#hiroshima">هيروشيما</a>
+    <a href="#video">الفيديو</a>
+    <a href="#contact">معلومات الطالب</a>
+
+</nav>
+
+<section id="about">
+
+    <h2>نبذة عن الحرب العالمية الثانية</h2>
+
+    <p>
+
+        الحرب العالمية الثانية هي أكبر حرب شهدها التاريخ،
+        بدأت في 1 سبتمبر عام 1939 عندما قامت ألمانيا
+        بقيادة أدولف هتلر بغزو بولندا.
+
+        شاركت في الحرب معظم دول العالم وانقسمت إلى:
+        دول الحلفاء ودول المحور.
+
+        استمرت الحرب حتى عام 1945
+        وتسببت في ملايين الضحايا والدمار الكبير
+        في مختلف أنحاء العالم.
+
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1521295121783-8a321d551ad2">
+
+</section>
+
+<section id="events">
+
+    <h2>أهم أحداث الحرب العالمية الثانية</h2>
+
+    <table>
+
+        <tr>
+            <th>الحدث</th>
+            <th>التاريخ</th>
+        </tr>
+
+        <tr>
+            <td>بداية الحرب العالمية الثانية</td>
+            <td>1939</td>
+        </tr>
+
+        <tr>
+            <td>هجوم بيرل هاربر</td>
+            <td>1941</td>
+        </tr>
+
+        <tr>
+            <td>إنزال النورماندي</td>
+            <td>1944</td>
+        </tr>
+
+        <tr>
+            <td>قصف هيروشيما وناجازاكي</td>
+            <td>1945</td>
+        </tr>
+
+        <tr>
+            <td>نهاية الحرب العالمية الثانية</td>
+            <td>1945</td>
+        </tr>
+
+    </table>
+
+</section>
+
+<section id="hiroshima">
+
+    <h2>نهاية الحرب وقصف هيروشيما</h2>
+
+    <p>
+
+        في 6 أغسطس عام 1945 قامت الولايات المتحدة
+        بإلقاء قنبلة ذرية على مدينة هيروشيما اليابانية،
+        مما أدى إلى دمار هائل وخسائر بشرية كبيرة.
+
+        وبعد ثلاثة أيام تم إلقاء قنبلة أخرى
+        على مدينة ناجازاكي.
+
+        أدى ذلك إلى استسلام اليابان رسميًا
+        وانتهاء الحرب العالمية الثانية في سبتمبر 1945.
+
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d">
+
+</section>
+
+<section id="video">
+
+    <h2>فيديو تعليمي: الحرب العالمية الثانية باختصار</h2>
+
+    <div class="video">
+
+        <iframe
+        src="https://www.youtube.com/embed/2CMoyNf4_1M"
+        title="الحرب العالمية الثانية"
+        allowfullscreen>
+        </iframe>
+
+    </div>
+
+    <p style="text-align:center;">
+
+        شرح مبسط للحرب العالمية الثانية
+        من قناة حسين عبدالله
+
+    </p>
+
+</section>
+
+<section id="contact">
+
+    <h2>معلومات الطالب</h2>
+
+    <table>
+
+        <tr>
+            <th>الاسم</th>
+            <td>عبدالله النجعي</td>
+        </tr>
+
+        <tr>
+            <th>الرقم الجامعي</th>
+            <td>202418335</td>
+        </tr>
+
+        <tr>
+            <th>البريد الإلكتروني</th>
+
+            <td>
+
+                <a href="mailto:abodi1000vip@gmail.com">
+                    abodi1000vip@gmail.com
+                </a>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</section>
+
+<footer>
+
+    جميع الحقوق محفوظة ©️ 2026
+
+</footer>
+
+</body>
+
+</html>
